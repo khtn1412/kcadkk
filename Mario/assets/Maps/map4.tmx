@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="160" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="Collision" value="true"/>
+  </properties>
+  <image source="Images/tileset.png" width="352" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Win" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Win" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Win" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Dead" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="TileMap" width="160" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92Xx6sUQRDGx3RQTLCKvssq6kV4Zte9iVf1qoJZwZwVzOmZc845X9U/0W9wCoqiuruqZ2YFDz92Qnd1ha9re/pFUfQZr8Eb8FY8/1/Ijc87L3ed4YbhfjRtW3IVXAPXHXNk/N/Ad/Cj5Tz/K21547PM09bNXaepuhLcj7Y19QA8BI8C77W94Nl/OfX06JP7n2PDW/MeIxQf8RP8Ar+N68bGx2LS8t5T6lpHk6m+eAAcLGyaqrsXKO5D4DA4Epmf05Ny+0CTNmL6rRMfzUtpzROTtZZ1dRHriyfBqUy7Xiju0+AMOOuoXS+jZm1Qt0f3I3M963p0HNKst349cb8ELAXL2O9yp80RcCXDF4713LkALASL2O9iZ+1idcntox3D2JVV/lc5bVv0x//fLDGm9Gc9Q9TVn6W/pbgH7mfMy1m/zV6UWm8sGBewIfU3Xxm3GqwBazP87Cnw96GzaO7+su5jqS1JHU1YeQlesfrwd9RfCW9/lX0xZ296tNet0OZNAVMDNjT9SQ2uA+vBBvYspGmCztZt7jEtVusZsQn98O8HK112/QV8ZfVpUtuyL1r3ZmpfarnrMqQ9eU7Rzixkk+uPa3A72AF2smeapjl0ts7R3VFwDBwHJxJ5Dtl4Dl5U15fA5UieY8heyO+93w+jwOgIYxy2vKRyrvVgrR/GtKfpT865GLBNz1I5CuVM+jlS/D1b5+jvHDgPLlT+xvaqFnP5/BP4XN3fAXcD+aujP4pxOFA/yUQwKcJkp28dx9iULnJ6sNReV9iOfRuF9JfKkSVnpR06W2s15/tNy8kNcBPcArcDuesHYi5/Y9963A+LZmLw7wdZv07h00cOljXGgwlK/uU48n8j2AQ2gy1gq1KfkPa6Ykzs2yiki9ieCb3T7NDZmt7T/6G236Sdx+AJeAqeKX5w7Wn6s/oZ2/NaHbaJMRQjt0VxDlJ/ch06b5TX08B0gy3yfxfYDfaAvWAf2F/YtCf1V5eUxmJr0dla/h+G9MfnvgPvwQfwUVkz1vMtftJ9TH+hOmgxclsU56D1x9ei80Z5PQvMTtiZAWY2xFDNmFYotfNqusl42oi5P0Af69ajiTwPVXUNMQfMbYh5ibUGQZPxtBXzoHxssx7WGEof/gDunqk/gCUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Enemy" width="160" height="15">
+  <properties>
+   <property name="Enemy" value="true"/>
+  </properties>
+  <object x="512" y="384" width="32" height="32">
+   <properties>
+    <property name="Goomba" value="true"/>
+   </properties>
+  </object>
+  <object x="1472" y="224" width="32" height="32">
+   <properties>
+    <property name="Koopa" value="true"/>
+   </properties>
+  </object>
+  <object x="2336" y="320" width="32" height="32">
+   <properties>
+    <property name="Koopa" value="true"/>
+   </properties>
+  </object>
+  <object x="2240" y="384" width="32" height="32">
+   <properties>
+    <property name="Goomba" value="true"/>
+   </properties>
+  </object>
+  <object x="3648" y="352" width="32" height="32">
+   <properties>
+    <property name="Goomba" value="true"/>
+   </properties>
+  </object>
+  <object x="3680" y="352" width="32" height="32">
+   <properties>
+    <property name="Goomba" value="true"/>
+   </properties>
+  </object>
+  <object x="3520" y="352" width="32" height="32">
+   <properties>
+    <property name="Koopa" value="true"/>
+   </properties>
+  </object>
+  <object x="1120" y="224" width="32" height="32">
+   <properties>
+    <property name="Pirhana" value="true"/>
+   </properties>
+  </object>
+  <object x="1600" y="256" width="32" height="32">
+   <properties>
+    <property name="Goomba" value="true"/>
+   </properties>
+  </object>
+  <object x="2560" y="384" width="32" height="32">
+   <properties>
+    <property name="Pirhana" value="true"/>
+   </properties>
+  </object>
+  <object x="3776" y="96" width="32" height="32">
+   <properties>
+    <property name="Pirhana" value="true"/>
+   </properties>
+  </object>
+  <object x="4256" y="224" width="32" height="32">
+   <properties>
+    <property name="Goomba" value="true"/>
+   </properties>
+  </object>
+  <object x="4992" y="352" width="32" height="32">
+   <properties>
+    <property name="Goomba" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="ContainerItem" width="160" height="15">
+  <properties>
+   <property name="ContainerItem" value="true"/>
+  </properties>
+  <object x="480" y="128" width="32" height="32">
+   <properties>
+    <property name="Mushroom" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+  <object x="448" y="256" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="512" y="256" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="480" y="256" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="1536" y="160" width="32" height="32">
+   <properties>
+    <property name="MushroomUp" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+  <object x="2112" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="2080" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="2016" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="2048" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="1984" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="3392" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="3360" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="3296" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="3328" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="3424" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="3296" y="192" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="3520" y="288" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+  <object x="3584" y="160" width="32" height="32">
+   <properties>
+    <property name="Flower" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+  <object x="3648" y="288" width="32" height="32">
+   <properties>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+  <object x="3360" y="64" width="32" height="32">
+   <properties>
+    <property name="Question" value="true"/>
+    <property name="Star" value="true"/>
+   </properties>
+  </object>
+  <object x="416" y="256" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="544" y="256" width="32" height="32">
+   <properties>
+    <property name="Brick" value="true"/>
+    <property name="Empty" value="true"/>
+   </properties>
+  </object>
+  <object x="2048" y="64" width="32" height="32">
+   <properties>
+    <property name="Flower" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+  <object x="2016" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+  <object x="2080" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Player" width="160" height="15">
+  <properties>
+   <property name="Player" value="true"/>
+  </properties>
+  <object x="0" y="96" width="32" height="32">
+   <properties>
+    <property name="Player" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Item" width="160" height="15">
+  <properties>
+   <property name="Item" value="true"/>
+  </properties>
+  <object x="288" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="384" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="256" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="352" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="320" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="4512" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="4576" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="4544" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="4608" y="64" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="2944" y="160" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="2976" y="160" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="2912" y="160" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="3072" y="160" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="3008" y="160" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+  <object x="3040" y="160" width="32" height="32">
+   <properties>
+    <property name="Money" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Position" width="160" height="15">
+  <properties>
+   <property name="Position" value="true"/>
+  </properties>
+  <object x="1888" y="320" width="32" height="32">
+   <properties>
+    <property name="Position" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
